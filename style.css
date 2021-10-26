@@ -20,6 +20,7 @@ header{
     margin: 24px 76px 20px 64px;
     padding: 0;
     font-weight: 600;
+    justify-content: center;  
 }
 
 .header-container{
@@ -30,7 +31,6 @@ header{
 .header-wrapper{
     display: flex;
     align-items: center;
-    padding-left: 135px;
 }
 
 .header-logo{
@@ -86,13 +86,14 @@ ul {
   }
 
   .intro-section-image-1{
-    max-height: 650px;
+    max-height: 600px;
+    margin-left: -48px;
     overflow: hidden;
     z-index: 20;
   }
 
   .intro-section-image-2{
-    max-height: 650px;
+    max-height: 550px;
     overflow: hidden;
     z-index: 20;
   }
@@ -213,10 +214,12 @@ ul {
   .orders-container{
     display: flex;
     align-items: center;
+    justify-content: center;
     margin: 150px 0px 130px 89px;
   }
 
   .orders-content-title{
+    margin-top: 75px;
     font-size: 32px;
     color: #21272e;
   }
@@ -280,6 +283,7 @@ ul {
   .orders-image-wrapper{
     display:flex;
     align-items: center;
+    overflow: hidden;
   }
   .place-your-order-image-container{
     border-radius: 53px;
@@ -287,12 +291,10 @@ ul {
     justify-content: center;
     margin-left:90px;
     width: 100%;
-    max-width: 945px;
-    overflow: hidden;
   }
 
   .orders-screen-image-2{
-    height: 592px;
+    height: 530px;
     margin-top: 40px;
   }
 
