@@ -179,6 +179,12 @@ ul {
     color: #909599;
   }
 
+  @media screen and (max-width: 360px) {
+    body {
+      background-color: lightgreen;
+    }
+  }
+
 
   /*trusted-by section*/
 
@@ -802,3 +808,11 @@ ul {
     height:41px;
   }
 
+  @media screen and (max-width:360px){
+    body{
+      background-color: purple;
+    }
+    .footer-wrapper{
+      flex-direction: column;
+    }
+  }
