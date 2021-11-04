@@ -158,7 +158,7 @@ header{
 
   .intro-get-started-btn:hover{
     cursor: pointer;
-    box-shadow: 3px 7px #888888;
+    box-shadow: 2px 5px #888888;
   }
 
   .yes-its-free{
@@ -957,7 +957,7 @@ i{
 
   .get-started-button:hover{
     cursor: pointer;
-    box-shadow:3px 7px #888888;
+    box-shadow:2px 5px #888888;
     
   }
 
