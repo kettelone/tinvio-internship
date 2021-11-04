@@ -611,7 +611,7 @@ i{
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 88px 0px 90px 0px;
+  padding: 88px 0px 90px 0px;
   background-color: rgba(251,252,254,255);
 }
 
