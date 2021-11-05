@@ -12,11 +12,26 @@
   padding: 0;
 }
 
+.container-1{
+  background: url("img/dots-background/Wave_Supplier_1.png"), rgba(251,252,254,255);
+  background-repeat: no-repeat;
+  background-size: 600px 789px;
+  background-position-x: 570px;
+  background-position-y: 5%;
+}
+
+.container-2{
+  background: url("img/dots-background/Wave_Supplier_2.png"), rgba(251,252,254,255);
+  background-repeat: no-repeat;
+  background-position-x: 118px;
+  background-size: 1050px 100%;
+}
 
 /*1-header*/
+
 header{
   padding: 10px 76px 10px 64px;
-  background-color: rgba(251,252,254,255);
+  /* background-color: rgba(251,252,254,255); */
 }
 .header-container{
   display:flex;
@@ -106,7 +121,6 @@ header{
     justify-content: center;
     overflow: hidden;
     padding-top: 44px;
-    background-color: rgba(251,252,254,255);
   }
   .intro-container{
     display: flex;
@@ -534,6 +548,10 @@ header{
   display: flex;
   justify-content:space-around;
   padding: 90px 0px;
+  background: url("img/dots-background/Wave_Supplier_3.png");
+  background-repeat: no-repeat;
+  background-size: 50%;
+  background-position-x: 350px;
 }
 
 .seamless-ordering-title{
