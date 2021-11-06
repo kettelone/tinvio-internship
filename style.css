@@ -27,11 +27,20 @@
   background-size: 1050px 100%;
 }
 
+@media only screen and (max-width: 800px) {
+  .container-1{
+    background: rgba(251,252,254,255);
+  }
+
+  .container-2{
+    background: rgba(251,252,254,255)
+  }
+}
+
 /*1-header*/
 
 header{
   padding: 10px 76px 10px 64px;
-  /* background-color: rgba(251,252,254,255); */
 }
 .header-container{
   display:flex;
@@ -607,6 +616,7 @@ i{
     flex-direction: column;
     align-items: center;
     text-align: center;
+    background: none;
   }
 
   .order-steps-container{
@@ -770,6 +780,13 @@ i{
 
 /*8-section-contact-us*/
 
+.contact-us-wrapper{
+  background: url("img/8-section-contact-us/Ovals-1.png");
+  background-repeat: no-repeat;
+  background-size: 725px;
+  background-position-x: -85px;
+  background-position-y: 100px;
+}
 
 .contact-us-section{
   display: flex;
@@ -778,6 +795,10 @@ i{
   justify-content: space-between;
   padding: 0% 9%;
   padding-top: 120px;
+  background: url("img/dots-background/Wave_Supplier_4.png");
+  background-repeat: no-repeat;
+  background-size: 300px 100%;
+  background-position-x: 360px;
 }
 
 .contact-us-container{
@@ -829,6 +850,10 @@ i{
   margin: 0px 24px 20px;
   height: 150px;
   display: flex;
+  border-radius: 8px;
+  box-shadow: 0 6px 14px -6px rgb(0 0 0 / 20%);
+  padding: 20px 20px 20px 24px;
+  background-color: white;
 }
 
 .column-1{
@@ -876,6 +901,7 @@ i{
   padding: 32px;  
   border-radius: 13px;
   box-shadow: 0 6px 14px -6px rgba(0, 0, 0, 0.2);
+  background-color: white;
 }
 
 .form-heading-text{
@@ -991,11 +1017,16 @@ i{
 }
 
 @media only screen and (max-width: 850px){
+
+  .contact-us-wrapper{
+    background:none
+  }
+  
   .contact-us-section{
     height: auto;
     flex-direction: column;
     margin-top: 0px;
-    
+    background: none;
   }
 
   .form-wrapper{
