@@ -21,7 +21,7 @@
 }
 
 .container-2{
-  background: url("img/dots-background/Wave_Supplier_2.png"), rgba(251,252,254,255);
+  background: url("img/dots-background/Wave_Supplier_2.png"), white;
   background-repeat: no-repeat;
   background-position-x: 118px;
   background-size: 1050px 100%;
