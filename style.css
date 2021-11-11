@@ -851,7 +851,7 @@ i{
 
 .countries-wrapper{
   margin: 0px 24px 20px;
-  height: 150px;
+  max-height: 170px;
   display: flex;
   border-radius: 8px;
   box-shadow: 0 6px 14px -6px rgb(0 0 0 / 20%);
