@@ -163,6 +163,7 @@ header{
     color: #f43939;
     text-transform: uppercase;
     letter-spacing:1px;
+    font-weight: bold;
   }
   .intro-btn-container{
     margin-top: 42px;
@@ -197,6 +198,7 @@ header{
   .intro-title{
     width: 100%;
     font-size: 28px;
+    padding: 0px 24px;
   }
 
   .intro-container{
@@ -404,6 +406,7 @@ header{
   }
 
   .order-description{
+    padding: 0px 11px;
     width: 100%;
   }
 
@@ -411,7 +414,7 @@ header{
     display: flex;
     flex-direction: column-reverse;
     width:100%;
-    padding: 20px 20px;
+    padding: 20px 15px;
   }
 
   .orders-carousel{
@@ -984,7 +987,6 @@ i{
   display: flex;
   align-items: center;
   width: 343px;
-  height: 56px;
   }
 
 .get-started-button{
@@ -1052,7 +1054,7 @@ i{
 
   .arrow-and-countries-for-small{
     display: block;
-    padding-top: 49px;
+    padding-top: 59px;
   }
   .arrow-and-countries{
     display: none;
@@ -1070,9 +1072,25 @@ i{
 
 @media only screen and (max-width: 400px){
 
+  .lets-get-to-know{
+    font-size: 18px;
+  }
+
+  .arrow-left-class{
+    height: 50px;
+    margin-left: 25px;
+    margin-bottom: -26px;
+  }
+
+  .lets-get-to-know{
+    margin-left: 60px;
+  }
+
   .contact-us-section{
+    background-image: linear-gradient(to bottom,white, #f7f9fa);
     margin-top: 0px;
   }
+
   .get-started-input{
     width: 252px;
   }
@@ -1083,6 +1101,10 @@ i{
     flex-direction: column;
     align-content: center;
     align-items: center;
+  }
+
+  .meet-us-wrapper{
+    padding: 0px 0px 87px;
   }
 
   .button-wrapper {
@@ -1103,17 +1125,31 @@ i{
     margin-left: 130px;
   }
 
+  .no-spam{
+    padding-top: 16px;
+    margin: 0px;
+  }
+
   .countries-wrapper{
     margin: 0px;
   }
 
   .or-meet-us-in {
-    margin-left: -7%;
+    margin-left: 7%;
 }
 .arrow-right-container {
   margin-left: 12%;
-  margin-bottom: -14%;
 }
+
+.arrow-right {
+  margin-left: 12%;
+  width: 110px;
+  height: 44px;
+}
+.or-meet-us-in{
+  font-size: 18px;
+}
+
 }
 
 /*9-footer*/
